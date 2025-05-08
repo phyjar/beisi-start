@@ -1,0 +1,52 @@
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.DS_Store
+
+# Maven
+server/target/
+server/log/
+server/pom.xml.tag
+server/pom.xml.releaseBackup
+server/pom.xml.versionsBackup
+server/pom.xml.next
+server/release.properties
+server/dependency-reduced-pom.xml
+server/buildNumber.properties
+server/.mvn/timing.properties
+server/.mvn/wrapper/maven-wrapper.jar
+
+# Node.js
+web/node_modules/
+web/npm-debug.log
+web/yarn-debug.log
+web/yarn-error.log
+web/.pnpm-debug.log
+
+# Vue.js / Vite
+web/dist/
+web/dist-ssr/
+web/.env.local
+web/.env.*.local
+web/coverage/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Other
+.env
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+memory-bank/ 
