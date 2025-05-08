@@ -1,9 +1,8 @@
-
 import type { ApiResponse, LoginResponseData } from '@/types/auth';
 import axios, {AxiosError} from "axios";
 
 // 配置axios默认值
-axios.defaults.baseURL = 'http://localhost:8888';
+// axios.defaults.baseURL = 'http://localhost:8888';  // 删除这行，使用相对路径
 axios.defaults.headers.common['Content-Type'] = 'application/json';
 axios.defaults.withCredentials = true;
 
